@@ -1,0 +1,26 @@
+{
+    "$schema": "schema.json",
+        "actions": [
+            {
+                "verb": "addNavLink",
+                "url": "https://www.google.de",
+                "displayName": "Google"
+            },
+            {
+                "verb": "removeNavLink",
+                "displayName": "Conversations",
+                "isWebRelative": true
+            }, 
+            {
+                "verb": "removeNavLink",
+                "displayName": "Unterhaltungen",
+                "isWebRelative": true
+            }, 
+            {
+                "verb": "applyTheme",
+                "themeName": "Tobias Wolter - Farben"
+             }      
+        ],
+            "bindata": { },
+    "version": 1
+}
